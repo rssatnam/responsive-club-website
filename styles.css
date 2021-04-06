@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: lightsalmon;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+h1 {
+  color: coral;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: yellow;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+header,
+footer {
+  background: teal;
+}
+
+header li,
+footer li {
+  display: inline-block;
+}
+
+header a,
+footer a {
+  color: lightsalmon;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2rem;
+}
+
+header a:hover,
+footer a:hover {
+  background: black;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#intro {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro h1 {
+  text-align: center;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  width: 100%;
+}
+
+.photos img {
+  width: 30%;
+  margin: 1.5%;
+}
+
+.meetup {
+  margin: 1.5%;
+}
+
+.testimonials {
+  padding: 1.5%;
+  color: yellow;
+  background: teal;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.testimonials h1 {
+  color: yellow;
+  font-size: 2.5rem;
+}
+
+.join {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.join img {
+  max-width: 700px;
+}
+
+.join * {
+  color: yellow;
+}
