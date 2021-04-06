@@ -101,3 +101,26 @@ footer a:hover {
 .join * {
   color: yellow;
 }
+
+@media only screen and (max-width: 991px) {
+  .join img,
+  .photos img {
+    width: auto;
+    max-width: 97.5%;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+  }
+
+  header li,
+  footer li,
+  header a,
+  footer a {
+    display: block;
+    text-align: center;
+  }
+
+  .testimonials {
+    height: auto;
+  }
+}
